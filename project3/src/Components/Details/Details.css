@@ -1,0 +1,46 @@
+.DetailsGrid{
+    display:grid;
+    grid-template-columns: 10% 40% 40% 10%;
+}
+.DetailsList li{
+    list-style: none;
+}
+
+.h2Details{
+    margin-top:8px;
+    margin-bottom:6px;
+}
+.albumInfo{
+    grid-column: 2/3;
+}
+.h3Details{
+    margin-top:8px;
+    margin-bottom:6px;
+    color:rgba(78, 78, 78, 0.667);
+}
+
+.ParagraphDetails{
+    margin-top:0px;
+    margin-bottom:6px;
+}
+.rating{
+    margin-top:50px;
+    grid-column:3/4;
+}
+.backbutton{
+    margin-left:20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .DetailsGrid{
+        grid-template-columns: 50% 50%;
+    }
+    .albumInfo{
+        grid-column:1/2;
+    }
+    .rating{
+        grid-column:2/3;
+    }
+
+  }
+
