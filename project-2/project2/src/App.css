@@ -1,0 +1,50 @@
+/* WRAPPER FOR CONTENT */
+.Wrapper {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25vw 50vw 25vw;
+  grid-auto-rows: minmax(30px, auto);
+  margin:auto;
+  font-family: futura;
+}
+.Title{
+  grid-column:2/3;
+  color: #c0b283
+}
+.Navbar {
+  width:100%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+body {
+  background-color:#F4F4F4;
+}
+
+
+/* Landscape for mobile */
+@media all and (max-height: 480px) and (orientation: landscape) { 
+  .Wrapper{
+    grid-template-columns:100vw;
+  }
+  .Title{
+    grid-column: 1/2;
+  }
+  .Navbar{
+    grid-column:1/2;
+  }
+ }
+
+/* New grid for mobile */
+@media all and (max-width: 480px) { 
+  .Wrapper{
+    grid-template-columns:100vw;
+  }
+  .Title{
+    grid-column: 1/2;
+  }
+  .Navbar{
+    grid-column:1/2;
+  }
+}
+

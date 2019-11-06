@@ -1,0 +1,78 @@
+.grid {
+  display: grid;
+  width:100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid > button {
+  font-size: 1em;
+  font-weight: thin;
+  color: #373737;
+  width:100%;
+  /* float:left; */
+  text-align: center;
+  padding: 1em;
+  outline: none;
+  cursor:pointer;
+  background-color:#dcd0c0;
+}
+
+
+/* white border between tabs */
+.tab1{
+  border-right: 4px solid #F4F4F4;
+  border-bottom: 4px solid #F4F4F4;
+}
+.tab2{
+  border-right: 4px solid #F4F4F4;
+  border-bottom: 4px solid #F4F4F4;
+}
+.tab3{
+  border-right: 4px solid #F4F4F4;
+  border-bottom: 4px solid #F4F4F4;
+}
+.tab4{
+  border-bottom: 4px solid #F4F4F4;
+}
+
+
+@media all and (max-width: 768px) { 
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tab2{
+    border-right:none;
+  }
+}
+.Save{
+  border-right: 4px solid #F4F4F4;
+}
+.Load{
+  padding:0 5px;
+}
+.SaveLoad{
+  width:50%;
+  font-size: 1em;
+  font-weight: thin;
+  color: #373737;
+  /* float:left; */
+  text-align: center;
+  padding: 1em;
+  outline: none;
+  cursor:pointer;
+  background-color:#dcd0c0;
+  border-bottom: 4px solid #F4F4F4;
+}
+
+
+button:hover{
+  color:#f4f4f4;
+  background-color: #373737;
+}
+
+input,
+button,
+submit {
+  border: none;
+}
+

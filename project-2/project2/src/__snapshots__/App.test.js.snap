@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render matches snapshot 1`] = `
+<div
+  className="Wrapper"
+>
+  <div
+    className="Title"
+  >
+    <h1>
+      Welcome to our Artboard Machine
+    </h1>
+  </div>
+  <div
+    className="Navbar"
+  >
+    <div>
+      <button
+        className="Save SaveLoad"
+        onClick={[Function]}
+      >
+        Save current combination
+      </button>
+      <button
+        className="Load SaveLoad"
+        onClick={[Function]}
+      >
+        Load saved combination
+      </button>
+      <div
+        className="grid"
+      >
+        <button
+          className="tab1"
+          onClick={[Function]}
+        >
+          Trump
+        </button>
+        <button
+          className="tab2"
+          onClick={[Function]}
+        >
+          Richard
+        </button>
+        <button
+          className="tab3"
+          onClick={[Function]}
+        >
+          Jaden
+        </button>
+        <button
+          className="tab4"
+          onClick={[Function]}
+        >
+          Michael
+        </button>
+      </div>
+      <div
+        className="Artboard-tools"
+      >
+        <div
+          className="Wrap"
+        >
+          <div
+            className="Artboard"
+          >
+            <div>
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "",
+                  }
+                }
+              />
+              <div
+                id="quote"
+              >
+                "
+                
+                "
+              </div>
+              <audio
+                controls={true}
+                loop={true}
+              >
+                <source
+                  src=""
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          <div
+            className="textboxes"
+            id="pictures"
+          >
+            <h2
+              class="h2"
+            >
+              Photos:
+            </h2>
+            <label
+              class="container"
+            >
+              What
+              <input
+                className="checkbox"
+                name="group 1"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Weird
+              <input
+                className="checkbox"
+                name="group 1"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Smile
+              <input
+                className="checkbox"
+                name="group 1"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+          </div>
+          <div
+            className="textboxes"
+            id="sounds"
+          >
+            <h2
+              class="h2"
+            >
+              Sounds:
+            </h2>
+            <label
+              class="container"
+            >
+              Chuch
+              <input
+                className="checkbox"
+                name="group 2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Grab pussy
+              <input
+                className="checkbox"
+                name="group 2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Church
+              <input
+                className="checkbox"
+                name="group 2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+          </div>
+          <div
+            className="textboxes"
+            id="quotes"
+          >
+            <h2
+              class="h2"
+            >
+              Quotes:
+            </h2>
+            <label
+              class="container"
+            >
+              Ivanka
+              <input
+                className="checkbox"
+                name="group 3"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Jobs
+              <input
+                className="checkbox"
+                name="group 3"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+            <br />
+            <label
+              class="container"
+            >
+              Fingers
+              <input
+                className="checkbox"
+                name="group 3"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                class="checkmark"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
